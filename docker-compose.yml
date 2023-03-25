@@ -1,0 +1,15 @@
+version: "3"  
+services:
+  web:
+    ports:
+      - "3000:3000"
+    container_name: vue-app
+    image: vue-app:1.0.0
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile
+
+
+
+
+  
